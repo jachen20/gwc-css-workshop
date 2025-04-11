@@ -114,6 +114,43 @@ On first glance, it does look weird, doesn't it? Once we add this styling below 
 }
 ```
 
+![image](https://github.com/user-attachments/assets/429a9155-1a86-41a3-a9e5-3587a8610d3a)
+
+Much better! Now the text is at the bottom of each picture instead of to the side. But I think we can do so much better, so let's add another flexbox to align these recipes side by side.
+
+```
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Recipes</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="recipes.html">Recipes</a>
+        </nav>
+    </header>
+    <div class="container">
+      <div class="recipe">
+            <img src=https://rakskitchen.net/wp-content/uploads/2014/06/14336259454_504e87ce37_z.jpg>
+            Baingan Bharta
+      </div>
+      <div class="recipe">
+            <img src=https://www.cookerru.com/wp-content/uploads/2022/06/mapo-tofu-recipe-preview-feature-500x500.jpg>
+            Mapo Tofu
+      </div>
+    </div>
+</body>
+```
+
+
+
 
 
 
