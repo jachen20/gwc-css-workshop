@@ -161,6 +161,29 @@ In styles.css, add this:
 
 ![image](https://github.com/user-attachments/assets/4ed80cd3-00dc-4dbf-8adc-d338e8d99019)
 
+Feel free to add more recipes that you like! I just started with two just to show as an example.
+
+## Show your favorite recipe!
+
+Now that you have a list of recipes, pick a favorite and highlight in gold!
+Add these lines of code to your styles.css:
+
+```
+.favorite-recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  background-color: gold;
+}
+```
+
+And for your favorite recipe, change the div class from "recipe" to "favorite-recipe". For mine, I chose baigan bharta!
+![image](https://github.com/user-attachments/assets/47adcb7c-06d4-4f4b-b08f-8e3645278436)
+
+
+
+
 
 
 
