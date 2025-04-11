@@ -40,7 +40,7 @@ h1 {
 }
 ```
 
-What this does is that it applies a styling to any <h1> elements in the HTML document. Next we're going to link the styles.css sheet to the recipe page.
+What this does is that it applies a styling to any h1 elements in the HTML document. Next we're going to link the styles.css sheet to the recipe page.
 
 ```
 <head>
