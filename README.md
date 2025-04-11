@@ -31,4 +31,37 @@ Make sure to also add this line in the navigation bar to all of the other HTML p
 ```
             <a href="recipes.html">Recipes</a>
 ```
-##Changing the title color
+## Changing the title color
+Add this line to styles.css:
+
+```
+h1 {
+  color: red;
+}
+```
+
+What this does is that it applies a styling to any <h1> elements in the HTML document. Next we're going to link the styles.css sheet to the recipe page.
+
+```
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Recipes</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="recipes.html">Recipes</a>
+        </nav>
+    </header>
+</body>
+```
+
+![image](https://github.com/user-attachments/assets/b3fa2fde-2343-4683-991c-d83c3dac410c)
+
