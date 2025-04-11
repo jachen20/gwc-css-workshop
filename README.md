@@ -1,1 +1,1 @@
-"# gwc-css-workshop" 
+# Workshop #2 - CSS 
