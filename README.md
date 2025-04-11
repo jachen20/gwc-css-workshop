@@ -31,16 +31,17 @@ Make sure to also add this line in the navigation bar to all of the other HTML p
 ```
             <a href="recipes.html">Recipes</a>
 ```
-## Changing the title color
+## Changing the header color
 Add this line to styles.css:
 
 ```
 h1 {
-  color: red;
+  color: black;
 }
 ```
+What this does is that it changes the header color to black (or any color of your choice) for all the headers on your site that use this stylesheet. This creates a unified identity for the colors on your webpage! And you don't have to define it again and again for every new page you create. 
 
-What this does is that it applies a styling to any h1 elements in the HTML document. Next we're going to link the styles.css sheet to the recipe page.
+What this does is that it applies a styling to any h1 elements in the HTML document. Next we're going to link the styles.css sheet to the recipe page. Make sure you add it to all of your html pages.
 
 ```
 <head>
@@ -63,19 +64,9 @@ What this does is that it applies a styling to any h1 elements in the HTML docum
 </body>
 ```
 
-![image](https://github.com/user-attachments/assets/b3fa2fde-2343-4683-991c-d83c3dac410c)
+![image](https://github.com/user-attachments/assets/89af1233-7f88-4e19-ba40-4df0eff8d993)
 
-If your title looks red like this, you're on the right path!
-
-## Changing the header color
-Add this line to styles.css:
-
-```
-h1 {
-  color: black;
-}
-```
-What this does is that it changes the header color to black (or any color of your choice) for all the headers on your site that use this stylesheet. This creates a unified identity for the colors on your webpage! And you don't have to define it again and again for every new page you create. 
+If your title looks black like this, you're on the right path!
 
 ## Adding flexboxes
 
