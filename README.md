@@ -25,5 +25,10 @@ Create another file called recipes.html and copy this code in.
     </header>
 </body>
 ```
+![image](https://github.com/user-attachments/assets/3b4c6d53-a6e3-425d-b8b6-71d32c60c42d)
 
+Make sure to also add this line in the navigation bar to all of the other HTML pages so that you can navigate to your new page from anywhere.
+```
+            <a href="recipes.html">Recipes</a>
+```
 ##Changing the title color
