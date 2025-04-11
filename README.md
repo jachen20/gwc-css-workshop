@@ -67,6 +67,16 @@ What this does is that it applies a styling to any h1 elements in the HTML docum
 
 If your title looks red like this, you're on the right path!
 
+## Changing the header color
+Add this line to styles.css:
+
+```
+h1 {
+  color: black;
+}
+```
+What this does is that it changes the header color to black (or any color of your choice) for all the headers on your site that use this stylesheet. This creates a unified identity for the colors on your webpage! And you don't have to define it again and again for every new page you create. 
+
 ## Adding flexboxes
 
 Flexboxes are useful for providing a layout/grid that can adjust to different display devices and screen sizes. For a more in-depth explanation as well as a list of all the things you can do with them, feel free to look here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
