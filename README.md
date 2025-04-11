@@ -65,3 +65,7 @@ What this does is that it applies a styling to any h1 elements in the HTML docum
 
 ![image](https://github.com/user-attachments/assets/b3fa2fde-2343-4683-991c-d83c3dac410c)
 
+If your title looks red like this, you're on the right path!
+
+
+
