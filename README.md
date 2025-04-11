@@ -181,7 +181,11 @@ Add these lines of code to your styles.css:
 And for your favorite recipe, change the div class from "recipe" to "favorite-recipe". For mine, I chose baigan bharta!
 ![image](https://github.com/user-attachments/assets/47adcb7c-06d4-4f4b-b08f-8e3645278436)
 
+If you need to see the whole code at some point, here's the trinket link: https://trinket.io/html/ea98da3de175 
 
+## Extra Challenge
+
+Try making it so that whenever a user clicks on a recipe, it links them to a different page! It can be either a page that you create or an external website.
 
 
 
