@@ -67,5 +67,36 @@ What this does is that it applies a styling to any h1 elements in the HTML docum
 
 If your title looks red like this, you're on the right path!
 
+## Adding flexboxes
+
+Flexboxes are useful for providing a layout/grid that can adjust to different display devices and screen sizes. For a more in-depth explanation as well as a list of all the things you can do with them, feel free to look here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+In the body, we'll make a new **div**, which you can think of it as a container for HTML elements.
+
+```
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Recipes</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="recipes.html">Recipes</a>
+        </nav>
+    </header>
+      <div class="recipe">
+            <img src=https://rakskitchen.net/wp-content/uploads/2014/06/14336259454_504e87ce37_z.jpg>
+            Baingan Bharta
+      </div>
+</body>
+```
+
 
 
