@@ -149,6 +149,20 @@ Much better! Now the text is at the bottom of each picture instead of to the sid
 </body>
 ```
 
+In styles.css, add this:
+```
+.container {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    gap: 20px;
+}
+```
+
+![image](https://github.com/user-attachments/assets/4ed80cd3-00dc-4dbf-8adc-d338e8d99019)
+
+
+
+
 
 
 
