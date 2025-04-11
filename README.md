@@ -71,7 +71,7 @@ If your title looks red like this, you're on the right path!
 
 Flexboxes are useful for providing a layout/grid that can adjust to different display devices and screen sizes. For a more in-depth explanation as well as a list of all the things you can do with them, feel free to look here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-In the body, we'll make a new **div**, which you can think of it as a container for HTML elements.
+In the body of recipes.html, we'll make two new **divs**, which you can think of it as a container for HTML elements. You can search for any images of food on Google that you like! I just chose Baigan Bharta and Mapo Tofu as examples.
 
 ```
 <head>
@@ -95,8 +95,28 @@ In the body, we'll make a new **div**, which you can think of it as a container 
             <img src=https://rakskitchen.net/wp-content/uploads/2014/06/14336259454_504e87ce37_z.jpg>
             Baingan Bharta
       </div>
+      <div class="recipe">
+            <img src=https://www.cookerru.com/wp-content/uploads/2022/06/mapo-tofu-recipe-preview-feature-500x500.jpg>
+            Mapo Tofu
+      </div>
 </body>
 ```
+
+![image](https://github.com/user-attachments/assets/4fcc7fbd-18c2-4f81-83d6-65ca03e1e105)
+
+On first glance, it does look weird, doesn't it? Once we add this styling below to styles.css, it should look a lot better:
+
+```
+.recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+```
+
+
+
+
 
 
 
