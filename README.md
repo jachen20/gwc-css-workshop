@@ -5,8 +5,6 @@ Last tutorial we used a stylesheet from a website. This week we will focus on ma
 
 ![CSS](https://github.com/user-attachments/assets/f46cbc20-e28e-4032-9780-97270c8861c0)
 
-![image](https://github.com/user-attachments/assets/27ae8a49-9a4c-482a-9230-be95d76fcfa4)
-
 Create another file called recipes.html and copy this code in.
 ```
 <head>
